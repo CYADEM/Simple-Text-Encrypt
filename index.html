@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Text Encrypt</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 min-h-screen flex justify-center items-center">
+      <section>
+            <textarea cols="100" rows="10" class="resize-none p-4"></textarea>
+            <div class="flex justify-center items-center gap-5 text-white mt-5">
+                  <button class="bg-gray-700 py-2 px-5 uppercase rounded-lg" onclick="encrypt()">Encrypt Text</button>
+                  <button class="bg-gray-700 py-2 px-5 uppercase rounded-lg" onclick="copy()">Copy Encrypted Text</button>
+            </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
